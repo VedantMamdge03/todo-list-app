@@ -1,0 +1,131 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.task-details {
+  flex-grow: 1;
+}
+
+.task-text {
+  flex-grow: 1;
+}
+
+.task-summary {
+  color: #666;
+  opacity: 0.7;
+  margin-top: 5px;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.task-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.task button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task button:nth-child(1) {
+  background-color: #28a745;
+  color: white;
+}
+
+.task button:nth-child(1):hover {
+  background-color: #218838;
+}
+
+.task button:nth-child(2) {
+  background-color: #ffc107;
+  color: white;
+}
+
+.task button:nth-child(2):hover {
+  background-color: #e0a800;
+}
+
+.task button:nth-child(3) {
+  background-color: #dc3545;
+  color: white;
+}
+
+.task button:nth-child(3):hover {
+  background-color: #c82333;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.toggle-button:hover {
+  background-color: #5a6268;
+}
