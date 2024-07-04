@@ -42,12 +42,6 @@ This Todo List application allows users to create, manage, and track their daily
 4. Use the delete button to remove a task from the list.
 5. Click "Clear Completed" to remove all completed tasks from the list.
 
-## Project Structure
-
-- `index.html` - The main HTML file
-- `style.css` - Contains all the styles for the application
-- `script.js` - Contains the application logic and interactivity
-
 ## Future Enhancements
 
 - Add due dates for tasks
